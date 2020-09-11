@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- meta elemennt with charset means for 'character set' which
+    tells the browser that all text within webpage is encoded by 'utf-8'.
+    utf-8 and unicode are the most common character set used worldwide.
+    Search up 'meta' in mdn web docs for more information. -->
+    <title>Luc's Persnal Site</title>
+  </head>
+  <body>
+    <table cellspacing=20>
+      <tr>
+        <td><img src="Luc.png" width="250" height=250 alt="Luc profile picture"></td>
+        <!-- <img src="" alt=""> allows you to insert an image of your choice,
+        the addition of dimensions is optional and helps adjust the picture size.
+        The alt function details the purpose or information about the photo. -->
+        <td><h1>Luc Trinh</h1>
+        <p><em>Insert <strong>title</strong> here</em></p>
+        <p>A web development student</p></td>
+        <!-- 'p' means paragraph which separates the previous text and creates a new line.
+        Use '<em></em>' over '<i></i>' to italicise text because '<em></em>' confers
+        meaning to the particular text we are referring to whereas '<i></i>' only
+        visually does the same thing but does not convey any meaning to the code.
+        HTML's main goal is to structure the webpage, CSS is used to style the webpage.
+        The <strong></strong> tag bolds the text within with meaning to the code -->
+      </tr>
+    </table>
+
+    </thead>
+
+    <hr>
+    <h3>Education</h3>
+    <ul>
+      <li>Bachelor of Commerce - <strong><a href="https://www.unimelb.edu.au/">University of Melbourne</a></strong></li>
+      <!-- <a href=""></a> allows you to add a link to your predefned text, allowing
+      the user to be directed to a hyperlink of your choice. This link is inserted
+      in the href="" section of the anchor element. In the example above, I have
+      attached the link to the university's webpage and the text on my webpage is
+      shown as <strong></strong> (bold), underlined with blue text. Text will turn
+      purple when you have accessed the link more than once. -->
+    </ul>
+    <!-- <ul></ul> stands for unordered list where you can input dot points to
+    your text. Within the list you will use <li></li> as the listing function
+    which allows you to have your messages displayed.
+    <ol></ol> stands for ordered list which has a chronological ordering to the list.
+    You can use the same <li></li> function and it will number the list for you. -->
+    <hr>
+    <p><h3>Work Experience</h3></p>
+    <table cellspacing=10>
+      <thead>
+        <tr> <!-- table row -->
+          <th>Dates</th>
+          <th>Work</th>
+          <!-- <th></th> function (table header cell) is a specialised element that
+          is specific to creating titles in the header section of a table. We could
+          alternatively place this element within the <table> element without the need
+          to use <thead> element. However, it is good to separate the head from the rest
+          of the table as this helps to isolate each section of the table, allowing for
+          more functionality to be built in. -->
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2017</td>
+          <td>Commonwealth Bank of Australia</td>
+        </tr>
+        <tr>
+          <td>2013-2016</td>
+          <td>Tutor at James An College</td>
+        </tr>
+      </tbody>
+    </table>
+    <hr>
+    <table>
+      <th><h3>Skills</h3></th>
+      <table cellspacing=10>
+        <tr>
+          <td>Cooking</td>
+          <td>⭐⭐⭐⭐</td>
+          <td>Web Development</td>
+          <td>⭐</td>
+        </tr>
+        <tr>
+          <td>Gaming</td>
+          <td>⭐⭐⭐⭐⭐</td>
+          <td>Cleaning</td>
+          <td>⭐⭐⭐</td>
+        </tr>
+      </table>
+    </table>
+    <hr>
+    <strong><a href="hobbies.html">My Hobbies</a></strong>
+    <!-- Here we have anchored our previously made list of hobbies to the hobbies.html
+    file we created to only source the information on hobbies with its associated links.
+    This is known as a 'satelite page' which allows the webpage to become a website.
+    This gives the website more detail and allows for clearer displays of information. -->
+    <p><strong><a href="contact-me.html">Contact Me</a></strong></p>
+  </body>
+</html>
